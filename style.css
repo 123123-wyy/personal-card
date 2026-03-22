@@ -1,0 +1,47 @@
+body{
+background:#f2f2f2;
+display:flex;
+justify-content:center;
+padding:30px 0;
+}
+.box{
+background:white;
+width:90%;
+max-width:600px;
+padding:30px;
+border-radius:12px;
+box-shadow:0 0 10px #ccc;
+}
+.photo{
+width:120px;
+height:120px;
+border-radius:50%;
+display:block;
+margin:0 auto 20px;
+object-fit:cover;
+}
+h1,h2,h3{
+text-align:center;
+}
+p{
+line-height:1.6;
+text-align:center;
+}
+.sign{
+color:#666;
+font-style:italic;
+margin:15px 0;
+}
+.tag{
+display:inline-block;
+background:#def;
+padding:6px 12px;
+border-radius:20px;
+margin:5px;
+}
+a{
+display:block;
+text-align:center;
+margin-top:20px;
+color:blue;
+}
